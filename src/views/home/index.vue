@@ -95,7 +95,7 @@ onMounted(() => {
     .use(GroupTextEditorPlugin)
     .use(GroupAlignPlugin)
     .use(WorkspacePlugin)
-    .use(HistoryPlugin)
+    .use(HistoryPlugin as any)
     .use(FlipPlugin)
     .use(RulerPlugin)
     .use(DrawPolygonPlugin)
@@ -104,10 +104,10 @@ onMounted(() => {
     .use(SimpleClipImagePlugin)
     .use(BarCodePlugin)
     .use(QrCodePlugin)
-    .use(FontPlugin, {
+    .use(FontPlugin as any, {
       repoSrc: APIHOST
     })
-    .use(MaterialPlugin, {
+    .use(MaterialPlugin as any, {
       repoSrc: APIHOST
     })
     .use(PsdPlugin)

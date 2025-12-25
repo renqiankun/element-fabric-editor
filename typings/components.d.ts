@@ -82,6 +82,7 @@ declare module 'vue' {
     Modal: typeof import('./../src/components/Modal/index.vue')['default']
     ModalSize: typeof import('./../src/components/ModalSize.vue')['default']
     PageList: typeof import('./../src/components/common/PageList.vue')['default']
+    Preview: typeof import('./../src/components/Preview.vue')['default']
     QuickOperation: typeof import('./../src/components/QuickOperation/index.vue')['default']
     ReplaceImg: typeof import('./../src/components/ReplaceImg.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

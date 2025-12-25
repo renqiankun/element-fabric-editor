@@ -55,6 +55,23 @@
     "history": {
       "undo": "Undo",
       "redo": "Redo"
+    },
+    "fitToSelection": "Fit to Selection Area",
+    "fitToSelectionModal": {
+      "title": "Fit to Selected Area",
+      "description": "Enter IDs of two objects, the canvas will zoom to fit the area of these two objects",
+      "firstIdPlaceholder": "Enter first object ID",
+      "secondIdPlaceholder": "Enter second object ID",
+      "autoFit": "Auto fit all objects"
+    },
+    "previewBtn": "Preview",
+    "previewModal": {
+      "title": "Canvas Preview",
+      "enableInteraction": "Enable Interaction",
+      "width": "Width",
+      "height": "Height",
+      "fitToAll": "Fit All",
+      "fitToSelection": "Fit to Selection"
     }
   },
   "basics": "Basics",
@@ -135,139 +152,103 @@
       "getFontStyle": "GetFontStyle"
     },
     "group": {
+      "title": "Group",
       "group": "Group",
-      "unGroup": "UnGroup",
-      "align": {
-        "name": "Align",
-        "left": "Left",
-        "centerX": "CenterX",
-        "right": "Right",
-        "top": "Top",
-        "bottom": "Bottom",
-        "centerY": "CenterY",
-        "averageX": "AverageX",
-        "averageY": "AverageY"
-      },
-      "centerAlign": {
-        "name": "CenterAlign",
-        "centerX": "CenterX",
-        "center": "Center",
-        "centerY": "CenterY"
-      }
+      "ungroup": "Ungroup"
     },
     "radius": {
-      "name": "AngleRounded",
-      "radius": "radius"
+      "name": "Radius",
+      "radius": "Radius"
     },
     "text": {
-      "content": "TextContent",
-      "path": "TextPath"
-    }
-  },
-  "imageSetting": {
-    "repleaceImg": "RepleaceImage",
-    "crop": {
-      "title": "CropperImage",
-      "create": "CreateCropper",
-      "remove": "RemoveCropper"
+      "title": "Text",
+      "text": "Text",
+      "add": "Add Text",
+      "vertical": "Vertical Text"
     },
-    "filters": {
-      "title": "Image Filter",
-      "simple": "Simple Filter",
-      "complex": "Complex Filter",
-      "Invert": "Invert",
-      "Sepia": "Sepia",
-      "BlackWhite": "BlackWhite",
-      "Brownie": "Brownie",
-      "Vintage": "Vintage",
-      "Kodachrome": "Kodachrome",
-      "technicolor": "Technicolor",
-      "Polaroid": "Polaroid",
-      "Grayscale": "Grayscale",
-      "GrayscaleList": {
-        "average": "Average",
-        "lightness": "Lightness",
-        "luminosity": "Luminosity"
-      },
-      "RemoveColor": "RemoveColor",
-      "Brightness": "Brightness",
-      "Contrast": "Contrast",
-      "Saturation": "Saturation",
-      "Vibrance": "Vibrance",
-      "HueRotation": "HueRotation",
-      "Noise": "Noise",
-      "Pixelate": "Pixelate",
-      "Blur": "Blur",
-      "Gamma": "Gamma"
+    "textDecoration": {
+      "underline": "Underline",
+      "lineThrough": "LineThrough",
+      "overline": "Overline"
+    },
+    "textAlign": {
+      "left": "Left",
+      "center": "Center",
+      "right": "Right",
+      "justify": "Justify"
+    },
+    "flip": {
+      "title": "Flip",
+      "horizontal": "Horizontal",
+      "vertical": "Vertical"
+    },
+    "image": {
+      "title": "Image",
+      "reset": "Reset",
+      "clip": "Clip Image",
+      "replace": "Replace Image",
+      "flipX": "Flip X",
+      "flipY": "Flip Y"
+    },
+    "mask": {
+      "title": "Mask",
+      "name": "Mask"
+    },
+    "opacity": {
+      "title": "Opacity",
+      "name": "Opacity"
     },
     "stroke": {
-      "title": "Image Stroke",
-      "enable": "Enable",
-      "size": "Size",
-      "show": "Show",
-      "color": "Color"
-    }
-  },
-  "flip": {
-    "x": "Horizontal",
-    "y": "Vertical"
-  },
-  "grid": "Grid",
-  "waterMark": {
-    "name": "waterMark",
-    "modalTitle": "WaterMarkSetting",
-    "setting": {
-      "name": "Title",
-      "size": "Size",
-      "color": "Color",
-      "angle": "Angle",
-      "position": {
-        "label": "WaterMarkLabel",
-        "lt": "LeftTop",
-        "rt": "RightTop",
-        "lb": "LeftBottom",
-        "rb": "RightBottom",
-        "full": "Full"
+      "title": "Stroke",
+      "stroke": "Color",
+      "width": "Width",
+      "dashArray": {
+        "title": "Dash",
+        "solid": "Solid",
+        "dash": "Dash",
+        "center": "Center",
+        "square": "Square"
       }
+    },
+    "font": {
+      "title": "Font",
+      "fontFamily": "FontFamily",
+      "fontStyle": "FontStyle",
+      "fontWeight": "FontWeight"
+    },
+    "shadow": {
+      "title": "Shadow",
+      "titleName": "Shadow"
+    },
+    "background": {
+      "title": "Background",
+      "color": "Color"
+    },
+    "border": {
+      "title": "Border"
+    },
+    "rounded": {
+      "title": "Rounded"
     }
   },
-  "importFiles": {
-    "createDesign": {
-      "title": "CreateDesign",
-      "customSize": "CustomSize",
-      "systemSize": "SystemSize"
-    }
+  "quick": {
+    "title": "Quick Operation",
+    "copy": "Copy",
+    "cut": "Cut",
+    "paste": "Paste",
+    "delete": "Delete",
+    "duplicate": "Duplicate",
+    "selectAll": "Select All",
+    "bringToFront": "Bring to Front",
+    "sendToBack": "Send to Back",
+    "group": "Group",
+    "ungroup": "Ungroup"
   },
-  "width": "Width",
-  "height": "Height",
-  "type": "Type",
-  "qrCode": {
-    "name": "QRcodeAttribute",
-    "content": "Content",
-    "space": "Space",
-    "splashes": "Splashes",
-    "outAngle": "ExternalAngle",
-    "inAngle": "InteriorAngle",
-    "background": "Background",
-    "fault": "Fault"
-  },
-  "barCode": {
-    "name": "BarCodeAttribute",
-    "text": "Text",
-    "content": "Content",
-    "show": "Show",
-    "color": "Color",
-    "position": "Position",
-    "size": "Size",
-    "background": "BacKground"
-  },
-  "color": "Color",
-
-  "common_elements": "BaseElements",
-  "draw_elements": "DrawElements",
-  "code_img": "CodeImage",
-  "setSizeTip": "SetSize",
-  "tip": {
-    "replaceTip": "Are you sure you want to add it to the canvas?"
+  "size": {
+    "title": "Size",
+    "lock": "Lock aspect ratio",
+    "width": "Width",
+    "height": "Height",
+    "reset": "Reset to original size"
   }
 }

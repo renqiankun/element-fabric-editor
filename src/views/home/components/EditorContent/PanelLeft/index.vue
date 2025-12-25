@@ -74,13 +74,13 @@ const editorStore = useEditorStore()
 const { panelType, showPanel, tabType, panelPositoin } =
   storeToRefs(editorStore)
 const tabComMap: Record<editorTabs, any> = {
-  [editorTabs.create]: Create,
-  [editorTabs.template]: Template,
-  [editorTabs.ai]: Ai,
-  [editorTabs.text]: Text,
-  [editorTabs.material]: Material,
-  [editorTabs.mine]: Mine,
-  [editorTabs.none]: ''
+  [editorTabs.create]: Create
+  // [editorTabs.template]: Template,
+  // [editorTabs.ai]: Ai,
+  // [editorTabs.text]: Text,
+  // [editorTabs.material]: Material,
+  // [editorTabs.mine]: Mine,
+  // [editorTabs.none]: ''
 }
 
 // 二级菜单
@@ -89,7 +89,7 @@ const handleHideSubMenu = debounce(function () {
   currentTab.value = editorTabs.none
 }, 250)
 // 左侧tab相关
-const currentTab = ref<editorTabs>(editorTabs.template)
+const currentTab = ref<editorTabs>(editorTabs.create)
 const tabChange = debounce(function (type: editorTabs, _subType: panels) {
   currentTab.value = type
   !unref(showPanel) && editorStore.setShowPanel(true)

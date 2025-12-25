@@ -7,13 +7,13 @@
  * @FilePath: \element-fabric-editor\src\enums\editor.ts
  */
 export enum editorTabs {
-  create = 'CGRATE',
-  template = 'TEMPLATE',
-  text = 'TEXT',
-  material = 'Material',
-  ai = 'AI',
-  mine = 'MINE',
-  none = ''
+  create = 'CGRATE'
+  // template = 'TEMPLATE',
+  // text = 'TEXT',
+  // material = 'Material',
+  // ai = 'AI',
+  // mine = 'MINE',
+  // none = ''
 }
 
 export enum panels {

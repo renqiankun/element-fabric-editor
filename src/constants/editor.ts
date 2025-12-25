@@ -12,32 +12,32 @@ export const tabList = [
     name: 'editor.tab.add',
     icon: 'add',
     type: editorTabs.create
-  },
-  {
-    name: 'editor.tab.template',
-    icon: 'template',
-    type: editorTabs.template
-  },
-  {
-    name: 'editor.tab.text',
-    icon: 'text',
-    type: editorTabs.text
-  },
-  {
-    name: 'editor.tab.material',
-    icon: 'img',
-    type: editorTabs.material
-  },
-  {
-    name: 'editor.tab.ai',
-    icon: 'ai',
-    type: editorTabs.ai
-  },
-  {
-    name: 'editor.tab.mine',
-    icon: 'mine',
-    type: editorTabs.mine
   }
+  // {
+  //   name: 'editor.tab.template',
+  //   icon: 'template',
+  //   type: editorTabs.template
+  // },
+  // {
+  //   name: 'editor.tab.text',
+  //   icon: 'text',
+  //   type: editorTabs.text
+  // },
+  // {
+  //   name: 'editor.tab.material',
+  //   icon: 'img',
+  //   type: editorTabs.material
+  // },
+  // {
+  //   name: 'editor.tab.ai',
+  //   icon: 'ai',
+  //   type: editorTabs.ai
+  // },
+  // {
+  //   name: 'editor.tab.mine',
+  //   icon: 'mine',
+  //   type: editorTabs.mine
+  // }
 ]
 
 export const textList = [

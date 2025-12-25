@@ -20,6 +20,12 @@
       <el-divider direction="vertical" />
       <MyTemplName />
 
+      <el-divider direction="vertical" />
+      <FitToSelection />
+
+      <el-divider direction="vertical" />
+      <PreviewBtn />
+
       <el-switch
         v-model="rulerEnable"
         size="large"
@@ -58,7 +64,7 @@
 </template>
 
 <script lang="ts" setup>
-import { Clear, History, Preview, Save, MyTemplName } from './components'
+import { Clear, History, Preview, Save, MyTemplName, FitToSelection, PreviewBtn } from './components'
 import { useEditorStore } from '@/store/modules/editor'
 
 const editorStore = useEditorStore()

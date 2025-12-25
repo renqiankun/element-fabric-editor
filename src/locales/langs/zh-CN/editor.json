@@ -56,6 +56,23 @@
     "history": {
       "undo": "撤销",
       "redo": "重做"
+    },
+    "fitToSelection": "缩放适配选中区域",
+    "fitToSelectionModal": {
+      "title": "缩放适配到指定区域",
+      "description": "请输入两个对象的ID，画布将缩放并适配到这两个对象的区域",
+      "firstIdPlaceholder": "输入第一个对象的ID",
+      "secondIdPlaceholder": "输入第二个对象的ID",
+      "autoFit": "自动适配所有对象"
+    },
+    "previewBtn": "预览",
+    "previewModal": {
+      "title": "画布预览",
+      "enableInteraction": "启用交互",
+      "width": "宽度",
+      "height": "高度",
+      "fitToAll": "适配全部",
+      "fitToSelection": "适配选中区域"
     }
   },
   "basics": "基础",

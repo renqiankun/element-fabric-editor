@@ -69,9 +69,9 @@
       <AttributeId />
 
       <!-- 新增字体样式使用 -->
-      <el-button @click="editor.getFontJson()" size="small">
+      <!-- <el-button @click="editor.getFontJson()" size="small">
         {{ $t('editor.attrSetting.data.getFontStyle') }}
-      </el-button>
+      </el-button> -->
     </div>
   </section>
 </template>

@@ -28,7 +28,6 @@ import { ColorPicker } from 'color-gradient-picker-vue3'
 import { useEditorStore } from '@/store/modules/editor'
 import { fabric } from 'fabric'
 import useSelect from '@/hooks/select'
-
 const { selectType, isOne } = useSelect()
 const editorStore = useEditorStore()
 const update = getCurrentInstance()
